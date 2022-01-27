@@ -1,3 +1,6 @@
+//THIS SOURCE CODE IS FREE
+//CREATED BY ALVIO ADJI JANUAR
+
 const fs = require('fs-extra')
 const { default: makeWASocket, useSingleFileAuthState, DisconnectReason, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage } = require("@adiwajshing/baileys-md")
 const { state, saveState } = useSingleFileAuthState(`./bot.json`)
