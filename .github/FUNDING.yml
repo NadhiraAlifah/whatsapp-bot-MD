@@ -1,1 +1,1 @@
-on: [push, fork]
+on: ['saweria.co/piyobot']
