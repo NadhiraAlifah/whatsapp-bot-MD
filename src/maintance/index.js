@@ -29,7 +29,7 @@ async function start() {
         const dataadmin = JSON.parse(fs.readFileSync('./admin.json')
         const cf = JSON.parse(fs.readFileSync('./config.json'))
         const { admin1 } = dataadmin
-        const { mt } = config
+        const { mt } = cf
         
         const reply = (teks) => {
         conn.sendMessage(from, {text : teks}, { quoted: m})
